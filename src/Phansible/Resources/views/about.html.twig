@@ -16,4 +16,19 @@
     provisionings using <a href="http://ansible.com" target="_blank">Ansible</a>.
 
     Phansible was inspired on <a href="http://puphpet.com" target="_blank">PuPHPet</a>.</p>
+
+<h2>Contributors</h2>
+    <p>Many kudos for our contributors!</p>
+    <div class="ui raised segment">
+        <div class="ui grid">
+          {% for dev in contributors %}
+            <div class="two wide column contributor-avatar">
+                <div class="ui center aligned basic segment">
+                  <a href="{{ dev.author.html_url }}" target="_blank"><img src="{{ dev.author.avatar_url }}" class="circular ui small center image"></a>
+                  <p><small><a href="{{ dev.author.html_url }}" target="_blank">{{ dev.author.login }}</a></small></p>
+                </div>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
 {% endblock %}
