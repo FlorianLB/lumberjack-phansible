@@ -36,7 +36,7 @@ a:hover {
 header {
     margin: 0px 0px 3em;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     background: #136B79 url(../images/header.jpg) center no-repeat;
     border-bottom: 4px solid #36677A;
 }
@@ -45,6 +45,13 @@ header img.logo {
     color: #FFF;
     font-size: 60px;
     margin: 20px 0px 0px 0px;
+}
+
+.logo-lumberjack {
+    margin-right: 20px;
+    border-radius: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .nodisplay {
@@ -138,7 +145,7 @@ header p {
     header {
         margin: 0px 0px 3em;
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
 
     #phansible .fixed .container {
